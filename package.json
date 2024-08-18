@@ -1,0 +1,20 @@
+{
+  "name": "riva-client-ts-bindings",
+  "version": "1.0.1",
+  "main": "dist/index.js",  
+  "types": "dist/index.d.ts", 
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.4.1",
+    "protobufjs": "^7.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0"
+  },
+  "keywords": ["riva", "typescript", "grpc", "NVIDIA"],
+  "author": "Your Name",
+  "license": "MIT"
+}
